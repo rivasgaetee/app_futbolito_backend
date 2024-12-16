@@ -1,0 +1,34 @@
+# Entorno virtual
+venv/
+
+# Archivos de configuración locales
+.env
+*.sqlite3
+
+# Archivos de caché y compilados
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs
+*.log
+
+# Directorios de Docker
+*.pid
+postgres_data/
+
+# Configuración de IDEs/editores
+.vscode/
+.idea/
+*.iml
+
+# Archivos temporales
+*.swp
+*.bak
+.DS_Store
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyo
+*.pyd
